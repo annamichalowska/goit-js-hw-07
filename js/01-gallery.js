@@ -35,3 +35,5 @@ placeOfGallery.addEventListener("click", (event) => {
     if (event.key === "Escape" && instance.visible()) instance.close();
   });
 });
+
+console.log(galleryItems);
